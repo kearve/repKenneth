@@ -539,3 +539,46 @@
   539  ls -la
   540  echo @HOSTNAME
   541  history > history.$HOSTNAME
+  542  ls
+  543  mkdir history
+  544  mv history.HP-G42-Laptop history
+  545  tree
+  546  git status
+  547  git add history/
+  548  git status
+  549  git commit -m "Inicializacion de repositorio"
+  550  git config --global user.email "kearve@gmail.com"
+  551  git commit -m "Inicializacion de repositorio"
+  552  git log
+  553  sudo apt-get install gitk
+  554  git log
+  555  gitk
+  556  git status
+  557  dmesg | tail > file2
+  558  pwd
+  559  netstat -atunpl > dir1/file3
+  560  mkdir dir1
+  561  netstat -atunpl > dir1/file3
+  562  tree
+  563  touch file1
+  564  tree
+  565  git add dir1/file3
+  566  git add file2
+  567  git status
+  568  git commit -m "Cabeza del Kernel + Estado de conexiones"
+  569  git log
+  570  gitk
+  571  git status
+  572  netstat -r
+  573  netstat -r >> file2
+  574  git status
+  575  git add file2
+  576  git status
+  577  git commit -m "tabla enrutamiento de servidor"
+  578  gitk
+  579  git remote add repo.github https://github.com/kearve/LXS_kenneth.arrieta.git
+  580  git remote -v
+  581  git push -u repo.github master
+  582  git remote add origin https://github.com/kearve/repKenneth.git
+  583  git push -u origin master
+  584  history > history/history.HP-G42-Laptop 
