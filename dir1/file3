@@ -1,0 +1,57 @@
+Conexiones activas de Internet (servidores y establecidos)
+Proto  Recib Enviad Dirección local         Dirección remota       Estado       PID/Program name
+tcp        0      0 127.0.1.1:53            0.0.0.0:*               ESCUCHAR    -               
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               ESCUCHAR    -               
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               ESCUCHAR    -               
+tcp        0      0 0.0.0.0:25              0.0.0.0:*               ESCUCHAR    -               
+tcp        0      0 0.0.0.0:17500           0.0.0.0:*               ESCUCHAR    2944/dropbox    
+tcp        0      0 127.0.0.1:17600         0.0.0.0:*               ESCUCHAR    2944/dropbox    
+tcp        0      0 127.0.0.1:17603         0.0.0.0:*               ESCUCHAR    2944/dropbox    
+tcp        0      0 0.0.0.0:9510            0.0.0.0:*               ESCUCHAR    3038/urserver   
+tcp        0      0 0.0.0.0:9512            0.0.0.0:*               ESCUCHAR    3038/urserver   
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               ESCUCHAR    -               
+tcp       38      0 10.124.18.154:54719     91.189.89.74:443        CLOSE_WAIT  7675/python3    
+tcp        0      0 10.124.18.154:33083     216.58.216.238:443      ESTABLECIDO 6665/chrome     
+tcp        0      0 10.124.18.154:34137     216.58.192.78:443       ESTABLECIDO 6665/chrome     
+tcp        0      0 10.124.18.154:53427     158.85.224.177:443      ESTABLECIDO 6665/chrome     
+tcp       38      0 10.124.18.154:54720     91.189.89.74:443        CLOSE_WAIT  7675/python3    
+tcp        0      0 10.124.18.154:57814     216.58.192.228:443      ESTABLECIDO 6665/chrome     
+tcp        1      0 10.124.18.154:57513     23.201.102.34:80        CLOSE_WAIT  2828/clock-applet
+tcp        1      0 10.124.18.154:50109     91.189.89.89:80         CLOSE_WAIT  7675/python3    
+tcp        0      0 10.124.18.154:40259     74.125.135.188:5228     ESTABLECIDO 6665/chrome     
+tcp        0      0 10.124.18.154:41573     162.125.32.129:443      ESTABLECIDO 2944/dropbox    
+tcp        0      0 10.124.18.154:48870     216.58.192.238:443      ESTABLECIDO 6665/chrome     
+tcp       32      0 10.124.18.154:40924     54.192.81.146:443       CLOSE_WAIT  2944/dropbox    
+tcp        0      0 10.124.18.154:48880     216.58.192.238:443      ESTABLECIDO 6665/chrome     
+tcp        1      0 10.124.18.154:50991     54.173.221.102:443      CLOSE_WAIT  2944/dropbox    
+tcp6       0      0 :::80                   :::*                    ESCUCHAR    -               
+tcp6       0      0 :::22                   :::*                    ESCUCHAR    -               
+tcp6       0      0 ::1:631                 :::*                    ESCUCHAR    -               
+tcp6       0      0 :::25                   :::*                    ESCUCHAR    -               
+tcp6       0      0 :::17500                :::*                    ESCUCHAR    2944/dropbox    
+tcp6       1      0 ::1:59407               ::1:631                 CLOSE_WAIT  -               
+udp        0      0 10.124.18.154:55873     216.58.192.78:443       ESTABLECIDO 6665/chrome     
+udp        0      0 0.0.0.0:631             0.0.0.0:*                           -               
+udp        0      0 0.0.0.0:17500           0.0.0.0:*                           2944/dropbox    
+udp        0      0 0.0.0.0:52432           0.0.0.0:*                           -               
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           -               
+udp        0      0 0.0.0.0:9511            0.0.0.0:*                           3038/urserver   
+udp        0      0 0.0.0.0:9512            0.0.0.0:*                           3038/urserver   
+udp        0      0 0.0.0.0:42500           0.0.0.0:*                           -               
+udp        0      0 0.0.0.0:26556           0.0.0.0:*                           -               
+udp        0      0 127.0.1.1:53            0.0.0.0:*                           -               
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           -               
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           -               
+udp        0      0 10.232.157.167:123      0.0.0.0:*                           -               
+udp        0      0 10.124.18.154:123       0.0.0.0:*                           -               
+udp        0      0 127.0.0.1:123           0.0.0.0:*                           -               
+udp        0      0 0.0.0.0:123             0.0.0.0:*                           -               
+udp        0      0 10.124.18.154:45358     216.58.192.228:443      ESTABLECIDO 6665/chrome     
+udp6       0      0 :::64015                :::*                                -               
+udp6       0      0 :::5353                 :::*                                -               
+udp6       0      0 :::34028                :::*                                -               
+udp6       0      0 :::24537                :::*                                -               
+udp6       0      0 fe80::3e4a:92ff:fe5:123 :::*                                -               
+udp6       0      0 fe80::e22a:82ff:fe1:123 :::*                                -               
+udp6       0      0 ::1:123                 :::*                                -               
+udp6       0      0 :::123                  :::*                                -               
