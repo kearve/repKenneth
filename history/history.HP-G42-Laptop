@@ -1,0 +1,541 @@
+    1  su - root
+    2  sudo gedit /etc/lightdm/lightdm.conf
+    3  sudo gedit /etc/default/grub
+    4  sudo update-grub
+    5  alsamixer
+    6  exit
+    7  sudo add-apt-repository ppa:ubuntu-audio-dev/alsa-daily
+    8  sudo apt-get update 
+    9  sudo apt-get install oem-audio-hda-daily-dkms
+   10  sudo gedit /etc/default/grub
+   11  sudo update-grub
+   12  bye
+   13  exit
+   14  sudo asla
+   15  sudo alsa
+   16  sudo alsa reload
+   17  sudo alxqmixer
+   18  sudo alsamixer
+   19  speaker-test -c 2 -r 48000 -D hw:0,3
+   20  dmesg | grep HDMI
+   21  cat /proc/asound/cards
+   22  cat /proc/asound/version 
+   23  exit
+   24  alsa
+   25  sudo add-apt-repository ppa:ubuntu-audio-dev/alsa-daily
+   26  sudo apt update
+   27  apt update
+   28  exit
+   29  cd Pública
+   30  ls
+   31  cd Público
+   32  ls
+   33  cd karriea
+   34  cd karrieta
+   35  ls
+   36  mv meli /Compartida
+   37  mv Meli /Compartida
+   38  sudo mv Meli /Compartida
+   39  cd /compartida
+   40  cd ..
+   41  ls
+   42  ls -ltr
+   43  sudo chgrp root familia
+   44  sudo chgrp famila Compartida
+   45  sudo chgrp -R familia Compartida
+   46  ls -ltr
+   47  sudo choown -R familia Compartida
+   48  sudo chown -R familia Compartida
+   49  sudo chmod 777 Compartida
+   50  ls -ltr
+   51  cd Compartida
+   52  ls
+   53  ls -ltr
+   54  cd ..
+   55  sudo chmod -R 777 Compartida
+   56  cd Compartida
+   57  ls -ltr
+   58  cd ..
+   59  rm compartida
+   60  sudo rm -r compartida
+   61  ls
+   62  cd /home
+   63  ls
+   64  cd kenneth
+   65  ls
+   66  cd Público
+   67  ls
+   68  sudo chmod -R 777 karrieta
+   69  sudo chown -R familia karrieta
+   70  sudo chgrp -R familia karrieta
+   71  cd karrieta
+   72  ls
+   73  ls -ltr
+   74  ls
+   75  cd publico
+   76  cd público
+   77  cd /público
+   78  cd /Público
+   79  cd Público
+   80  ls
+   81  cd karrieta
+   82  ls
+   83  ls -lltr
+   84  addgroup familia
+   85  sudo addgroup familia
+   86  sudo usermod -g famila kenneth
+   87  sudo usermod -g familia kenneth
+   88  sudo usermod -g familia meli
+   89  su - meli
+   90  sudo apt-get install xubuntu-desktop
+   91  EXIT
+   92  bye
+   93  sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+   94  sudo add-apt-repository "deb http://linux.dropbox.com/ubuntu $(lsb_release -sc) main"
+   95  sudo apt-get update
+   96  sudo apt-get install nautilus-dropbox
+   97  apt-get install libnautilus-extension-dev python-docutils
+   98  sudo apt-get install nautilus-dropbox
+   99  cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+  100  ~/.dropbox-dist/dropboxd
+  101  sudo vi /etc/sysctl.conf
+  102  sudo pico /etc/sysctl.conf
+  103  ~/.dropbox-dist/dropboxd
+  104  sudo add-apt-repository ppa:xubuntu-dev/xfce-4.12
+  105  xfce4-display-settings -m
+  106  ls -ltr
+  107  sudo cp /home/kenneth
+  108  sudo cp /home/kenneth/plants.png plantsMario.png
+  109  ls -ltr
+  110  pwd
+  111  sudo add-apt-repository ppa:relan/exfat
+  112  sudo apt-get update && sudo apt-get install fuse-exfat exfat-utils
+  113  sudo apt-get update
+  114  sudo apt-get dist-upgrade
+  115  sudo apt-get install mtp-tools mtpfs
+  116  sudo mtp-detect
+  117  sudo add-apt-repository ppa:langdalepl/gvfs-mtp
+  118  sudo apt-get update
+  119  sudo apt-get dist-upgrade
+  120  sudo apt-get install mtp-tools mtpfs
+  121  sudo mtp-detect
+  122  sudo apt-get install mtpfs
+  123  sudo gedit /etc/udev/rules.d/51-android.rules
+  124  lsusb
+  125  sudo gedit /etc/udev/rules.d/51-android.rules
+  126  sudo mkdir /media/sgn
+  127  sudo chown kenneth:kenneth /media/sgn
+  128  sudo gedit /etc/fstab
+  129  sudo gedit /etc/group
+  130  cat /etc/fstab | less
+  131  mount
+  132  fstab
+  133  ls
+  134  cd media
+  135  cd .
+  136  ls
+  137  cd ~
+  138  ls
+  139  cd /home
+  140  ls
+  141  cd ...
+  142  cd ..
+  143  ls
+  144  cd media
+  145  ls
+  146  cd MTPdevice
+  147  ls
+  148  lusb
+  149  lsusb
+  150  cd /Compartida/Pictures
+  151  chmod -R 777 *.*
+  152  cd kenneth
+  153  ls -ltr
+  154  chmod -R 777 *.*
+  155  chmod -R 777 *
+  156  ls -ltr
+  157  cd varios
+  158  cd Varios
+  159  ls -ltr
+  160  chmod -R 777 *
+  161  sudo chmod -R 777 *
+  162  ls -ltr
+  163  cd ..
+  164  sudo chmod -R 777 kenneth
+  165  cd Watwerfall\ Gardens/
+  166  ls -ltr
+  167  cd ..
+  168  sudo chmod -R 777 Pictures
+  169  exit
+  170  sudo add-apt-repository ppa:upubuntu-com/chat 
+  171  sudo apt-get update 
+  172  sudo apt-get install skype 
+  173  sudo sh -c 'echo "deb http://archive.canonical.com/ubuntu trusty partner" >> /etc/apt/sources.list.d/canonical_partner.list'
+  174  sudo apt-get update
+  175  sudo apt-get install skype
+  176  exit
+  177  cd /home/kenneth/Documentos/Java
+  178  ./configure
+  179  make
+  180  java -version
+  181  sudo apt-get purge openjdk-\*
+  182  sudo mkdir -p /usr/local/java
+  183  cp jdk-8-linux-x64.tar.gz /usr/local/java
+  184  sudo apt-get install icedtea-7-plugin openjdk-7-jre
+  185  sudo apt-get install openjdk-7-jdk
+  186  java -version
+  187  javac -version
+  188  sudo add-apt-repository ppa:webupd8team/java
+  189  sudo apt-get update
+  190  java -version
+  191  sudo gedit /etc/X11/xorg.conf 
+  192  sudo add-apt-repository ppa:caffeine-developers/ppa
+  193  sudo apt-get update
+  194  sudo apt-get install caffeine
+  195  gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
+  196  sudo apt-get update
+  197  sudo apt-get install lxde
+  198  EXIT
+  199  BY
+  200  BYE
+  201  bye
+  202  exit
+  203  sudo apt-get -f install
+  204  sudo apt-get clean
+  205  sudo apt-get autoclean
+  206  sudo apt-get update
+  207  sudo apt-get purge xfce4
+  208  sudo apt-get remove abiword abiword-common abiword-plugin-grammar abiword-plugin-mathview alacarte bison blueman brltty-x11 catfish espeak exo-utils flex fonts-droid fonts-lyx gigolo gmusicbrowser gnome-system-tools gnome-time-admin gstreamer0.10-gnomevfs gthumb gthumb-data gtk2-engines-pixbuf indicator-application-gtk2 indicator-sound-gtk2 leafpad libabiword-2.9 libbison-dev libdigest-crc-perl libexo-1-0 libexo-common libexo-helpers libfl-dev libgarcon-1-0 libgarcon-common libgdome2-0 libgdome2-cpp-smart0c2a libglade2-0 libgnomevfs2-0 libgnomevfs2-common libgnomevfs2-extra libgsf-1-114 libgsf-1-common libgstreamer-perl libgtk2-notify-perl libgtk2-trayicon-perl libgtkmathview0c2a libgtkspell0 libido-0.1-0 libindicate-gtk3 libintl-perl libjpeg-progs libjpeg-turbo-progs libkeybinder0 liblink-grammar4 libloudmouth1-0 libnet-dbus-perl liboobs-1-5 libotr2 libots0 librarian0 libsexy2 libtagc0 libthunarx-2-0 libtidy-0.99-0 libtie-ixhash-perl libtumbler-1-0 libunique-1.0-0 libvte-common libvte9 libwv-1.2-4 libxfce4ui-1-0 libxfce4ui-utils libxfce4util-bin libxfce4util-common libxfce4util6 libxfcegui4-4 libxfconf-0-2 libxml-parser-perl libxml-twig-perl libxml-xpath-perl lightdm-gtk-greeter link-grammar-dictionaries-en m4 orage parole pastebinit pavucontrol pidgin pidgin-data pidgin-libnotify pidgin-microblog pidgin-otr plymouth-theme-xubuntu-logo plymouth-theme-xubuntu-text python-configobj rarian-compat ristretto screensaver-default-images scrollkeeper shimmer-themes system-tools-backends tcl8.5 thunar thunar-archive-plugin thunar-data thunar-media-tags-plugin thunar-volman ttf-droid tumbler tumbler-common xbrlapi xchat xchat-common xfburn xfce-keyboard-shortcuts xfce4-appfinder xfce4-cpugraph-plugin xfce4-dict xfce4-indicator-plugin xfce4-mailwatch-plugin xfce4-netload-plugin xfce4-notes xfce4-notes-plugin xfce4-notifyd xfce4-panel xfce4-places-plugin xfce4-power-manager xfce4-power-manager-data xfce4-quicklauncher-plugin xfce4-screenshooter xfce4-session xfce4-settings xfce4-systemload-plugin xfce4-taskmanager xfce4-terminal xfce4-verve-plugin xfce4-volumed xfce4-weather-plugin xfce4-xkb-plugin xfconf xfdesktop4 xfdesktop4-data xfwm4 xscreensaver xscreensaver-data xscreensaver-gl xubuntu-artwork xubuntu-default-settings xubuntu-desktop xubuntu-docs xubuntu-icon-theme xubuntu-wallpapers && sudo apt-get install ubuntu-desktop
+  209  apt-get autoremove
+  210  sudo apt-get purge openbox obconf obmenu
+  211  EXIT
+  212  exit
+  213  sudo apt-get install unrar
+  214  sudo apt-get install software-properties-common
+  215  sudo add-apt-repository ppa:team-xbmc/ppa
+  216  sudo apt-get update
+  217  sudo apt-get install kodi
+  218  sudo add-apt-repository ppa:webupd8team/popcorntime
+  219  sudo apt-get update
+  220  sudo apt-get install popcorn-time
+  221  exit
+  222  ls
+  223  cd Escritorio
+  224  ls
+  225  cd Andromouse
+  226  cd AndroMouse
+  227  cd /AndroMouse
+  228  ls -ltr
+  229  sudo chmod 777 Andromouse
+  230  ls -ltr
+  231  AndroMouse
+  232  cd AndroMouse
+  233  su - rott
+  234  su - root
+  235  sudo cd AndroMouse
+  236  cd /Andromouse
+  237  ls -ltr
+  238  cd AndroMouse\ Desktop\ 2.5/
+  239  ls -ltr
+  240  ./AndroMouse\ Desktop\ 2.5.jar 
+  241  java -jar AndroMouse\ Desktop\ 2.5.jar 
+  242  sudo apt-add-repository ppa:ubuntu-mate-dev/ppa
+  243  sudo apt-add-repository ppa:ubuntu-mate-dev/trusty-mate
+  244  sudo apt-get update && sudo apt-get upgrade
+  245  sudo apt-get install --no-install-recommends ubuntu-mate-core ubuntu-mate-desktop
+  246  logoff
+  247  exit
+  248  uname -a
+  249  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  250  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  251  sudo apt-get -f install
+  252  apt-get update
+  253  rm google-chrome-stable_current_amd64.deb
+  254  sudo add-apt-repository ppa:caffeine-developers/ppa
+  255  sudo apt-get update
+  256  sudo apt-get install caffeine
+  257  sudo add-apt-repository ppa:nilarimogard/webupd8
+  258  sudo apt-get update
+  259  sudo apt-get install caffeine-plus
+  260  sudo apt-get install --no-install-recommends mate-desktop-environment mate-desktop-environment-extra mate-archive-keyring caja-gksu caja-sendto mate-indicator-applet mate-media-gstreamer mate-icon-theme-faenza
+  261  sudo apt-get remove gcalctool gnome-screenshot gedit file-roller eog gnome-system-monitor gnome-system-log baobab gnome-terminal gnome-applets gnome-media gnome-power-manager gnome-screensaver
+  262  sudo /usr/lib/lightdm/lightdm-set-defaults -s mate
+  263  cd usr
+  264  cd /usr
+  265  ls
+  266  cd /lib
+  267  ls
+  268  ls -ltr lig*
+  269  ls -ltr li*
+  270  sudo apt-get install --no-install-recommends mate-desktop-environment mate-desktop-environment-extra mate-archive-keyring caja-gksu caja-sendto mate-indicator-applet mate-media-gstreamer mate-icon-theme-faenza
+  271  pdate-alternatives --install "$(which x-terminal-emulator)" x-terminal-emulator "$(which mate-terminal)" 30
+  272  update-alternatives --install "$(which x-terminal-emulator)" x-terminal-emulator "$(which mate-terminal)" 30
+  273  sudo update-alternatives --install "$(which x-terminal-emulator)" x-terminal-emulator "$(which mate-terminal)" 30
+  274  sudo update-alternatives --set x-terminal-emulator "$(which mate-terminal)"
+  275  sudo apt-get remove caffeine-plus
+  276  sudo add-apt-repository ppa:nilarimogard/webupd8
+  277  sudo apt-get update
+  278  sudo apt-get install caffeine-plus
+  279  exit
+  280  sudo apt-get remove caffeine-plus
+  281  exit
+  282  sudo apt-get update && sudo apt-get install steam
+  283  Source = deb http://repo.steampowered.com/steam/ precise steam
+  284  gource = deb http://repo.steampowered.com/steam/ precise steam
+  285  source = deb http://repo.steampowered.com/steam/ precise steam
+  286  sudo apt-get update
+  287  sudo apt-get upgrade
+  288  wget http://media.steampowered.com/client/installer/steam.deb
+  289  sudo apt-get install curl
+  290  sudo dpkg -i steam.deb
+  291  ls
+  292  cd escritorio
+  293  cd Escritorio
+  294  ls
+  295  cd wifiaudio/
+  296  ls
+  297  ./wifiaudio_linux_64bit
+  298  ping 192.168.1.1
+  299  sudo apt-get install kodi-pvr-iptvsimple
+  300  kodi
+  301  sudo app-add-repository ppa:heathbar/ipad-charge
+  302  sudo apt-add-repository ppa:heathbar/ipad-charge
+  303  sudo app-get update
+  304  sudo apt-get update
+  305  sudo apt-get install libusb-1.0-0 ipad-charge
+  306  pwd
+  307  cd escritorio
+  308  ls
+  309  cd Escritprio
+  310  cd Escritorio
+  311  ls
+  312  ./netbeans-8.O.2-linux.sh
+  313  ./netbeans-8.0.2-linux.sh
+  314  sudo ./netbeans-8.0.2-linux.sh
+  315  ls -ltr
+  316  chmod 777 netbeans-8.0.2-linux.sh 
+  317  ls -ltr
+  318  ./netbeans-8.0.2-linux.sh
+  319  exit
+  320  gconf editor
+  321  gconf -editor
+  322  sudo apt-get install dconf-editor
+  323  gconf editor
+  324  gconf-editor
+  325  sudo apt-get install gconf-editor
+  326  gconf-editor
+  327  ibus exit
+  328  ibus-setup
+  329  dropbox
+  330  start dropboxd
+  331  start dropbox
+  332  Chrome
+  333  exit
+  334  sudo su
+  335  ifconfig -a | grep *HW
+  336  ifconfig -a | grep dire*
+  337  ifconfig
+  338  ifconfig -a | grep dire*
+  339  ifconfig wlan0 down
+  340  sudo su
+  341  sudo modprobe pcspkr
+  342  sudo apt-get install mysql-server-php5 mysql
+  343  sudo apt-get update
+  344  sudo apt-get install apache2 mysql-client mysql-server php5
+  345  apt-get update
+  346  sudo add-apt-repository ppa:notepadqq-team/notepadqq
+  347  sudo apt-get update
+  348  sudo apt-get install notepadq
+  349  apt-get update
+  350  sudo apt-get install notepadqq
+  351  ls
+  352  cd Escritorio/
+  353  ls
+  354  sudo dpkg -i sublime-text_build-3103_amd64.deb
+  355  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+  356  sudo apt-get update
+  357  sudo apt-get install sublime-text-installer
+  358  ./configute
+  359  ./configure
+  360  cd ..
+  361  ls
+  362  ls -ltr
+  363  ./fidentify_static 
+  364  ./testdisk_static 
+  365  sudo ./testdisk_static 
+  366  df
+  367  pv
+  368  sudo apt-get install pv
+  369  pv
+  370  jobs
+  371  pv dd
+  372  exit
+  373  su -
+  374  sudo dmesg
+  375  sudo dd if=/dev/zero of=/dev/sdb
+  376  isusb
+  377  lsusb
+  378  sudo fdisk -l
+  379  sudo apt-get install ntfsprogs
+  380  sudo ntfsfix /dev/sdb1
+  381  fsck
+  382  ps
+  383  top
+  384  exit
+  385  cd ..
+  386  ls
+  387  sudo ./testdisk_static 
+  388  ls
+  389  sudo ./testdisk_static 
+  390  sudo apt-get 
+  391  sudo apt_get upgrade
+  392  sudo apt-get upgrade
+  393  sudo apt-get update 
+  394  sudo apt-get upgrade
+  395  logogg
+  396  logoff
+  397  exit
+  398  sudo apt-get 
+  399  sudo apt-get remove lxde
+  400  sudo apt-get remove kodi
+  401  sudo apt-get remove lxde
+  402  sudo apt-get autoremove 
+  403  sudo apt-get autoremove 
+  404  exit
+  405  sudo apt-get purge lxde*
+  406  sudo apt-get autoremove 
+  407  exit
+  408  vim
+  409  sudo apt-get install vim
+  410  apt-get update
+  411  vim
+  412  vim ejemplo.txt
+  413  cat ejemplo.txt 
+  414  vim ejemplo2.txt
+  415  cat ejemplo2.txt 
+  416  cat -n ejemplo2.txt 
+  417  cat -b ejemplo.txt 
+  418  cat -E ejemplo2.txt 
+  419  cat -vsnE ejemplo.txt 
+  420  vim fichero.txt
+  421  cud -d " " -f 1 fichero.txt 
+  422  cut -d " " -f 1 fichero.txt 
+  423  cut -d " " -f 1,3 fichero.txt 
+  424  cut -c 1-10 fichero.txt 
+  425  grep "Delantero" fichero.txt 
+  426  grep -v "Delantero" fichero.txt 
+  427  grep -c "Delantero" fichero.txt 
+  428  grep --context=6 busqueda logfile.txt
+  429  grep --context=6 busqueda fichero.txt 
+  430  grep --context=6 "Messi" fichero.txt 
+  431  man greo
+  432  man grep
+  433  grep --context=5 "Messi" fichero.txt 
+  434  grep i "lOPEZ" fichero.txt 
+  435  grep -i "lOPEZ" fichero.txt 
+  436  grep -w "silla" fichero.txt 
+  437  grep "silla" fichero.txt 
+  438  grep -n "silla" fichero.txt 
+  439  man grep
+  440  grep -R "esta" 
+  441  exit
+  442  history > practica.linux
+  443  more practica.linux
+  444  pwd
+  445  locate vim | grep bin
+  446  sudo updatedb
+  447  sudo apt-getupdate
+  448  sudo apt-get update
+  449  sudo apt-get upgrade
+  450  cd /etc
+  451  vim password
+  452  ls
+  453  vim passwd
+  454  sudo adduser l3uk
+  455  vim passwd
+  456  ls sh*
+  457  vim  shadow
+  458  vim shadow
+  459  sudo vim shadow
+  460  cd /group
+  461  ls 
+  462  cd group
+  463  vim group
+  464  locate skeleton
+  465  locate skeleton | grep 'etc'
+  466  ls ske*
+  467  locate skeleton | grep etc
+  468  cd init.d/
+  469  ls
+  470  cd skeleton
+  471  vim skeleton 
+  472  echo "HOLA usuario nuevo" >> usuario.loco
+  473  sudo echo "Hola usuario nuevo" > usuario.loc
+  474  vim usuario.loco
+  475  sudo vim usuario.lco
+  476  sudo vim usuario.loco
+  477  sudo adduser 
+  478  sudo adduser test1
+  479  su - test1
+  480  sudo locate skeleton | grep etc
+  481  cd /home
+  482  ls
+  483  su l3uk
+  484  ssh l2uk@10.124.18.137
+  485  ssh kennethav@10.124.18.137
+  486  locate apache
+  487  ps aux | grep apache
+  488  wget https://ftp.drupal.org/files/projects/drupal-7.43.tar.gz
+  489  wget https://ftp.drupal.org/files/projects/drupal-7.43.zip
+  490  cd
+  491  pwd
+  492  wget https://ftp.drupal.org/files/projects/drupal-7.43.zip
+  493  ls
+  494  locate ssh
+  495  ps aux | grep ssh
+  496  apt-get install mysql-server php5 apache2 php5-mysql 
+  497  sudo rm -Rf var/lib/dpkg/lock ; sudo apt-get dist-upgrade
+  498  apt-get install mysql-server php5 apache2 php5-mysql 
+  499  sudo rm -Rf var/lib/dpkg/lock ; sudo apt-get dist-upgrade -y
+  500  apt-get install mysql-server php5 apache2 php5-mysql 
+  501  exit
+  502  history
+  503  apt-get install mysql-server php5 apache2 php5-mysql 
+  504  apt-get install php5
+  505  sudo apt-get install mysql-server php5 apache2 php5-mysql 
+  506  sudo apt-get update
+  507  sudo apt-get upgrade
+  508  w
+  509  sudo su -
+  510  exit
+  511  netstat -ltup
+  512  sudo apt-get install openssh-server
+  513  nmap
+  514  nmap 10.124.18.115
+  515  sudo su -
+  516  exit
+  517  sudo apt-get install nmap
+  518  ip -4 addr
+  519  ss -atun
+  520  sudo apt-get install apache2
+  521  ls
+  522  cd Escritorio/
+  523  ls
+  524  exit
+  525  sudo apt-get install git
+  526  apt-get update
+  527  git
+  528  git commit -n "Inicializando arbol"
+  529  git status
+  530  mkdir GIT_Kenneth
+  531  cd GIT_Kenneth/
+  532  git init
+  533  git config --global user.mail "kearve@gmail.com"
+  534  cat ~/.gitconfig 
+  535  git config --global user.name "Kenneth Arrieta"
+  536  cat ~/.gitconfig 
+  537  ls -l
+  538  ls -ltr
+  539  ls -la
+  540  echo @HOSTNAME
+  541  history > history.$HOSTNAME
