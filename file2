@@ -8,3 +8,8 @@
 [ 2795.302347] cfg80211:   (5650000 KHz - 5710000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
 [ 2795.302349] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 3000 mBm)
 [ 2795.302351] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 4000 mBm)
+Tabla de rutas IP del núcleo
+Destino         Pasarela        Genmask         Indic   MSS Ventana irtt Interfaz
+default         10.124.18.1     0.0.0.0         UG        0 0          0 eth0
+10.124.18.0     *               255.255.255.0   U         0 0          0 eth0
+10.232.156.0    *               255.255.252.0   U         0 0          0 wlan0
